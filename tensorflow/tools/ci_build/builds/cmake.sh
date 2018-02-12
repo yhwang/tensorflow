@@ -38,9 +38,9 @@ echo ""
 # Run TensorFlow cmake build.
 # Clean up, because certain modules, e.g., highwayhash, seem to be sensitive
 # to state.
-rm -rf build
+#rm -rf build
 
-mkdir -p build
+#mkdir -p build
 pushd build
 
 cmake -DCMAKE_BUILD_TYPE=Release ../tensorflow/contrib/cmake
